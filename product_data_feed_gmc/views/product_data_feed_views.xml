@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="product_data_feed_view_form" model="ir.ui.view">
+        <field name="name">product.data.feed.view.form.inherit.product_data_feed_gmc</field>
+        <field name="model">product.data.feed</field>
+        <field name="inherit_id" ref="product_data_feed.product_data_feed_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='file_type']" position="after">
+                <span class="oe_read_only" attrs="{'invisible': ['|', ('file_type', '!=', 'xml'), ('xml_specification', '=', False)]}">: </span>
+                <field name="xml_specification" attrs="{'invisible': [('file_type', '!=', 'xml')]}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
