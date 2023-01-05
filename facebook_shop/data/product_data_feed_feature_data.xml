@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="feature_fb_custom_label" model="product.data.feed.feature">
+        <field name="name">fb_custom_label</field>
+    </record>
+    <record id="feature_fb_custom_number" model="product.data.feed.feature">
+        <field name="name">fb_custom_number</field>
+    </record>
+
+</odoo>
