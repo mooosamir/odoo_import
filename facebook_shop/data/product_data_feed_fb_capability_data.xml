@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+
+    <record id="fb_capability_mini_shops" model="product.data.feed.fb_capability">
+        <field name="name">Shops on Facebook or Instagram</field>
+        <field name="value">mini_shops</field>
+    </record>
+    <record id="fb_capability_marketplace_shops" model="product.data.feed.fb_capability">
+        <field name="name">Marketplace</field>
+        <field name="value">marketplace_shops</field>
+    </record>
+    <record id="fb_capability_ig_product_tagging" model="product.data.feed.fb_capability">
+        <field name="name">Product tagging on Instagram</field>
+        <field name="value">ig_product_tagging</field>
+    </record>
+    <record id="fb_capability_da" model="product.data.feed.fb_capability">
+        <field name="name">Advantage+ catalog ads (formerly known as dynamic ads)</field>
+        <field name="value">da</field>
+    </record>
+    <record id="fb_capability_shops" model="product.data.feed.fb_capability">
+        <field name="name">Page Shops (legacy product)</field>
+        <field name="value">shops</field>
+    </record>
+
+</odoo>
